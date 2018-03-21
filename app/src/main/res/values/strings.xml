@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Task</string>
+    <string name="emailEdit">Enter your Email</string>
+    <string name="emailPassword">Enter your password</string>
+    <string name="singin">Sing In</string>
+    <string name="registerTextView">Registration</string>
+    <string name="registerBtn">Registration</string>
+    <string name="title_activity_main">My Task</string>
+    <string name="deleteBtn">Delete</string>
+    <string name="singOut">Sign out</string>
+</resources>

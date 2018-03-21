@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andrii.mytask.SinginActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_marginVertical="20dp"
+        android:id="@+id/emailEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/emailEdit"/>
+    <EditText
+        android:layout_marginVertical="20dp"
+        android:id="@+id/emailPassword"
+        android:hint="@string/emailPassword"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/singinBtn"
+            android:text="@string/singin"
+            android:layout_marginLeft="50dp"
+            android:background="@color/singinBtn"
+            android:textAllCaps="false"
+           />
+        <Button
+            android:textAllCaps="false"
+            android:background="@color/registerBtn"
+            android:textColor="@color/registerTextBtn"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/registerBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/registerBtn"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
